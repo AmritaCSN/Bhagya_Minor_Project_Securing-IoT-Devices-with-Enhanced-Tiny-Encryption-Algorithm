@@ -76,7 +76,7 @@ def encrypt_large_plaintext(plaintext, key):
 
     for block in blocks:
         if len(block) < 8:
-            block = block.ljust(8, b'\x00')  # Pad block if necessary
+            block = block.ljust(8, b'\x00')  # Pad block
         ciphertext += enhanced_tea_encrypt(block, key, round_keys_store)
 
     return ciphertext, round_keys_store
@@ -85,10 +85,9 @@ def encrypt_large_plaintext(plaintext, key):
 def decrypt_large_ciphertext(ciphertext, key, round_keys_store):
     blocks = [ciphertext[i:i+8] for i in range(0, len(ciphertext), 8)]
     plaintext = b""
-    rounds_per_block = 32  # Now 32 rounds instead of 16
+    rounds_per_block = 32  # Now 32 rounds
 
     for id, block in enumerate(blocks):
-        # Adjust slicing to retrieve the correct 32 keys for this block
         plaintext += enhanced_tea_decrypt(
             block, 
             key, 
