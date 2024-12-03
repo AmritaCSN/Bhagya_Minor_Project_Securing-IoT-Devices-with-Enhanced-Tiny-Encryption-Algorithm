@@ -1,1 +1,1 @@
-# Securing-IoT-Devices-with-Enhanced-Tiny-Encryption-Algorithm_Bhagya
+# Bhagya_Minor_Project_Securing-IoT-Devices-with-Enhanced-Tiny-Encryption-Algorithm
