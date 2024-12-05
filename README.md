@@ -16,6 +16,12 @@ Visual representation illustrating the encryption process.
 ### Subfolders and Their Contents
 #### 1. Encryption&Decryption_Algorithm
 This folder contains the implementation of the encryption and decryption processes using the enhanced TEA algorithm:
+
+| Files | Description |
+| --- | --- |
+| Encryptio.py | Implements the encryption process for plaintext. Helps visualize the encrypted output for different data inputs, demonstrating the effectiveness of the enhanced TEA algorithm. |
+| Encryption & Decryption.py | Combines both encryption and decryption processes in a single file. Verifies the decryption accuracy across varying data sizes, ensuring data integrity and reliability. |
+
 ##### `Encryption.py` :
 Implements the encryption process for plaintext.
 
