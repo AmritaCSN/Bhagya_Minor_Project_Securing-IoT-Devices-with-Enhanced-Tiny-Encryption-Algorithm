@@ -57,3 +57,18 @@ Hashlib: Provides a common interface for secure cryptographic hash and message d
 Time: Used to compute the encryption and decryption time for performance evaluation.
 
 psutil: Used to monitor resource usage during the encryption and decryption process.
+## Usage
+Follow the steps below to use the functionalities provided in this repository:
+
+1. Clone the Repository
+2. Navigate into the cloned directory.
+3. Ensure you have Python 3.11.5 installed.
+4. Navigate to the src/encryption & decryption folder.
+5. Use the encryption.py file to encrypt a plaintext message using the Enhanced TEA algorithm.
+6. Use the encryption & decryption.py file to perform both encryption and decryption, verifying the process for data integrity.
+7. Navigate to the src/performance analysis folder and run the code to analyse the time and memory during encryption and decryption.
+8. Navigate to the src/security analysis folder.
+9. Test the Avalanche Effect to measure the sensitivity of the algorithm to small input changes.
+10. Perform Differential Cryptanalysis to evaluate the resistance of the Enhanced TEA algorithm against cryptanalytic attacks.
+11. Conduct Entropy Analysis to assess the randomness and uniformity of the ciphertext.
+12. Modify the encryption key, plaintext size, etc in the source files to explore how they affect the encryption process and its performance. Test with different inputs to evaluate the robustness and scalability of the algorithm.
