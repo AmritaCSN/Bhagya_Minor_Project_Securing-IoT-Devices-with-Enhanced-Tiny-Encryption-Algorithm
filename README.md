@@ -14,44 +14,31 @@ Visual representation illustrating the encryption process.
 ![Block Diagram](https://github.com/user-attachments/assets/3b7d812d-a988-44b8-b195-93e839a05d60)
 
 ### Subfolders and Their Contents
-#### 1. Encryption&Decryption_Algorithm
+#### `1. Encryption&Decryption_Algorithm`
 This folder contains the implementation of the encryption and decryption processes using the enhanced TEA algorithm:
 
 | Files | Description |
 | --- | --- |
-| Encryptio.py | Implements the encryption process for plaintext. Helps visualize the encrypted output for different data inputs, demonstrating the effectiveness of the enhanced TEA algorithm. |
+| Encryption.py | Implements the encryption process for plaintext. Helps visualize the encrypted output for different data inputs, demonstrating the effectiveness of the enhanced TEA algorithm. |
 | Encryption & Decryption.py | Combines both encryption and decryption processes in a single file. Verifies the decryption accuracy across varying data sizes, ensuring data integrity and reliability. |
 
-##### `Encryption.py` :
-Implements the encryption process for plaintext.
-
-Helps visualize the encrypted output for different data inputs, demonstrating the effectiveness of the enhanced TEA algorithm.
-##### `Encryption & Decryption.py` :
-Combines both encryption and decryption processes in a single file.
-
-Verifies the decryption accuracy across varying data sizes, ensuring data integrity and reliability.
-#### 2. Performance_Analysis
+#### `2. Performance_Analysis`
 This folder evaluates the resource efficiency of the enhanced TEA algorithm:
-##### `time&memory_analysis_for 50 loops_encryption.py` :
-Measures the time taken and memory consumed during the encryption process.
 
-Essential for validating the lightweight nature of the algorithm, ensuring its suitability for resource-constrained IoT devices.
-##### `decryption_time&memory_analysis_for 50 loops.py` :
-Assesses the time and memory usage during the decryption process.
+| Files | Description |
+| --- | --- |
+| time&memory_analysis_for 50 loops_encryption.py | Measures the time taken and memory consumed during the encryption process. Essential for validating the lightweight nature of the algorithm, ensuring its suitability for resource-constrained IoT devices. |
+| decryption_time&memory_analysis_for 50 loops.py | Assesses the time and memory usage during the decryption process. Confirms that the algorithm maintains efficiency in real-world applications without compromising performance. |
 
-Confirms that the algorithm maintains efficiency in real-world applications without compromising performance.
-#### 3. Security Analysis
+#### `3. Security Analysis`
 This folder tests the robustness and security of the enhanced TEA algorithm:
-##### `Avalanche_effect_test.py` :
-Analyzes how small changes in the plaintext or key affect the ciphertext.
 
-Demonstrates the algorithm's sensitivity to input changes, a critical property for cryptographic strength.
-##### `Differential_Crypt_analysis.py` :
-Evaluates the algorithm's resistance to differential cryptanalysis attacks.
-##### `Entropy_analysis.py` :
-Calculates the randomness in the ciphertext output.
+| Command | Description |
+| --- | --- |
+| Avalanche_effect_test.py | Analyzes how small changes in the plaintext or key affect the ciphertext. Demonstrates the algorithm's sensitivity to input changes, a critical property for cryptographic strength. |
+| Differential_Crypt_analysis.py | Evaluates the algorithm's resistance to differential cryptanalysis attacks. |
+| Entropy_analysis.py | Calculates the randomness in the ciphertext output. Validates the unpredictability of the encrypted data. |
 
-Validates the unpredictability of the encrypted data.
 ## Tools and Technologies
 #### Programming Language
 Python 3.11.5: The project is implemented using Python for its simplicity and extensive library support.
