@@ -9,5 +9,7 @@ Python 3.11.5: The project is implemented using Python for its simplicity and ex
 Visual Studio Code: Used for writing, debugging, and testing the code.
 #### Libraries Used
 Hashlib: Provides a common interface for secure cryptographic hash and message digest algorithms.
+
 Time: Used to compute the encryption and decryption time for performance evaluation.
+
 psutil: Used to monitor resource usage during the encryption and decryption process.
