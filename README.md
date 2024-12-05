@@ -72,3 +72,4 @@ Follow the steps below to use the functionalities provided in this repository:
 10. Perform Differential Cryptanalysis to evaluate the resistance of the Enhanced TEA algorithm against cryptanalytic attacks.
 11. Conduct Entropy Analysis to assess the randomness and uniformity of the ciphertext.
 12. Modify the encryption key, plaintext size, etc in the source files to explore how they affect the encryption process and its performance. Test with different inputs to evaluate the robustness and scalability of the algorithm.
+13. To install the psutil library, use the following command: `pip install psutil` 
