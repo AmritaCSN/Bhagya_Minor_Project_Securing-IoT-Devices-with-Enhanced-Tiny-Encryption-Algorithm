@@ -11,6 +11,7 @@ Contains the core implementation of the project, divided into three subfolders:
 3. Security Analysis
 #### Block Diagram:
 Visual representation illustrating the encryption process.
+![Block Diagram](https://github.com/user-attachments/assets/3b7d812d-a988-44b8-b195-93e839a05d60)
 
 ### Subfolders and Their Contents
 #### 1. Encryption&Decryption_Algorithm
