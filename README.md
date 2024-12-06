@@ -6,8 +6,8 @@ The exponential growth of Internet of Things (IoT) devices has brought about sig
 ### Folder Structure
 #### src Folder:
 Contains the core implementation of the project, divided into three subfolders:
-1. Encryption & Decryption
-2. Performance Analysis
+1. Encryption&Decryption_Algorithm
+2. Performance_Analysis
 3. Security Analysis
 #### Block Diagram:
 Visual representation illustrating the encryption process.
