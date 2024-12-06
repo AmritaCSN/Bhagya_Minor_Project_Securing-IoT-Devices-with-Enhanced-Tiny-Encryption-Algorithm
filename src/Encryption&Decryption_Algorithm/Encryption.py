@@ -9,13 +9,6 @@ def compute_sha256_hash(data):
     hash_bytes = hash_object.digest()
     return hash_bytes[:16], hash_bytes[16:]  # First and second 128-bit halves
 
-# XOR function for key segments
-# def xor_with_key(hash_segments, key_segments):
-#     return [
-#         int.from_bytes(hash_segments[i], 'big') ^ key_segments[i] 
-#         for i in range(4)
-#     ]
-
 def xor_with_key(hash_segments, original_keys):
     return [
         (int.from_bytes(hash_segments[i], 'big') if isinstance(hash_segments[i], (bytes, bytearray)) else hash_segments[i])
